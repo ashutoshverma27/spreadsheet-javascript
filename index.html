@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project- Info 6122 Lab</title>
+    <style media="screen">
+      body {
+        background: #add8e6;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      th,
+      td {
+        text-align: center;
+      }
+      #clearButton,
+      #textbox {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body onload="showSpreadSheetTable()">
+    <input
+      type="button"
+      id="clearButton"
+      value="Clear"
+      onclick="clearSpreadSheet()"
+    />
+    <input type="text" id="textbox" />
+    <br />
+    <br />
+    <div id="spreadSheetDiv"></div>
+
+    <script type="text/javascript" src="site.js"></script>
+  </body>
+</html>
